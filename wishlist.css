@@ -1,0 +1,7 @@
+@import url(styles.css);
+
+main{
+    display: flex;
+    margin: 2rem 0;
+    
+}

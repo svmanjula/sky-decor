@@ -85,7 +85,6 @@ input{
     color: grey;
     font-size: larger;
     font-weight: bolder;
-    color: var(--red);
 }
 
 .product-content{
@@ -101,7 +100,7 @@ input{
 }
 
 .btn-secondary{
-    border: 2px solid var(--primary);
+    /* border: 2px solid var(--primary); */
     height: 35px;
     color: var(--primary);
 }
@@ -121,7 +120,7 @@ input{
 
 .off-percentage{
 
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
     color: var(--success);
 }

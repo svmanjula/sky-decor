@@ -1,0 +1,47 @@
+@import url(styles.css);
+
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    box-shadow: 0 4px 4px 0;
+    height: 40vh;
+    width:40vw;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--white);
+    padding: 2rem;
+    font-size: larger;
+}
+
+main{
+    display: flex;
+    margin-top: 5rem;
+
+}
+
+.input-text{
+    width: 40vw;
+    display: flex;
+    height:4vh;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn{
+    width:41vw;
+    height:5vh;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.sign-up-link{
+    text-align: center;
+}
+
+.sign-up-link:hover{
+    color: var(--primary);
+    
+}

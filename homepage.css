@@ -14,7 +14,7 @@
 
 
 .input{
-width:400px;
+width:50vw;
 height:5vh;
 background-color: var(--secondary);
 box-shadow: 0 4px 4px 0 var(--secondary);
@@ -236,14 +236,13 @@ header{
     display: flex;
     gap: 1.5rem;
     padding: 2rem;
-    /* background-color: var(--footer);
-    color: var(--white); */
-    /* width: 100vw; */
+    background-color: var(--footer);
+    color: var(--white);
     height: 30vh;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    box-shadow: 0 4px 4px 0;
+    /* box-shadow: 0 4px 4px 0; */
 }
 
 .about-us-section{
