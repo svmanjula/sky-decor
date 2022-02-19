@@ -6,7 +6,7 @@
     gap:1rem;
     box-shadow: 0 4px 4px 0;
     height: 40vh;
-    width:40vw;
+    width:30vw;
     justify-content: center;
     margin: auto;
     background-color: var(--white);
@@ -21,7 +21,7 @@ main{
 }
 
 .input-text{
-    width: 40vw;
+    width: 27vw;
     display: flex;
     height:4vh;
 }
@@ -32,7 +32,7 @@ main{
 }
 
 .btn{
-    width:41vw;
+    width:28vw;
     height:5vh;
     background-color: var(--primary);
     color: var(--white);
