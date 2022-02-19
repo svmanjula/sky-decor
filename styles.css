@@ -1,0 +1,24 @@
+:root{
+    --primary:rgb(168, 50, 50);
+    --secondary:rgb(233, 229, 229);
+    --white:white;
+    --btn-primary:rgb(187, 84, 84);
+    --red:rgb(211, 63, 63);
+    --footer:rgb(116, 55, 55);
+    --black:black;
+    --success:rgb(43, 105, 43);
+    --background:rgb(219, 201, 201);
+}
+
+:root{
+    box-sizing: border-box;
+    margin: 0;
+
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+

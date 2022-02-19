@@ -1,0 +1,156 @@
+
+@import url(styles.css);
+
+.main-container{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20vw;
+}
+
+.filter-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    font-size: 1rem;
+    width: 150px;
+    height: fit-content;
+}
+.filter-title{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.max{
+    position: relative;
+    top:-40px;
+    left:110px;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    accent-color: var(--primary);
+}
+
+.product-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.product-wrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 4px 0;
+    padding-bottom: 1rem;
+    position: relative;
+    width: 30vh;
+    /* height: 40vh; */
+}
+
+.product-img{
+    height: 20vh;
+    width: 30vh;
+    object-fit: contain;
+    /* background-color: var(--background); */
+}
+
+.product-discription{
+    font-size: smaller;
+}
+
+.icon-heart{
+    position: relative;
+    top:-150px;
+    right: -210px;
+    color: grey;
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--red);
+}
+
+.product-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem ;
+    gap:1rem;
+}
+
+.product-price{
+    display: flex;
+    gap:1rem;
+}
+
+.btn-secondary{
+    border: 2px solid var(--primary);
+    height: 35px;
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.product-name{
+    font-weight: bolder;
+    font-size: larger;
+}
+.final-price{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.off-percentage{
+
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--success);
+}
+
+.text-overlay{
+    position: absolute;
+    font-size:1rem;
+    font-weight: bolder;
+    border: 2px solid var(--success);
+    width:80px;
+    bottom: 350px;
+    color: var(--white);
+    background-color: var(--success);
+
+}
+
+.blur{
+    opacity: 0.3;
+}
+
+.text-overlay-two{
+    width: 100px;
+    position: absolute;
+    font-size:1rem;
+    font-weight: bolder;
+    bottom: 350px;
+    border: 2px solid var(--red);
+    color: var(--white);
+    background-color: var(--red);
+}
+
+
