@@ -1,0 +1,15 @@
+.btn{
+    width: 20vw;
+    height: 4vh;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+
+}
+
+.btn:hover{
+    color: var(--white);
+    background-color: var(--primary);
+}
+.product-type-tittle{
+    text-align: center;
+}
